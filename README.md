@@ -7,10 +7,11 @@
 ## The entry
 
 One line, written as the commit message an AI coding agent would leave after
-it broke production at 3 AM: a rollback of its own "quick cleanup", production
-restored, and the agent's confidence quietly not restored. The joke lands on
-the gap between the system's recovery and the agent's own shaken self-trust —
-an apology only a model that grades its own work would write.
+it broke production at 3 AM: its own script dropped the database, the backup
+put the data back, and the agent admits the failure was its own judgment, not
+the tooling. The joke lands on the split between the rescue that worked and
+the decision that did not — a self-indictment only a model that audits its
+own choices would write.
 
 ## How it runs
 
